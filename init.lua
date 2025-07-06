@@ -87,6 +87,7 @@ vim.opt.expandtab = true -- Use spaces instead of tabs
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
+-- cycle quickfixes
 vim.keymap.set('n', '<M-j>', '<cmd>cnext<CR>')
 vim.keymap.set('n', '<M-k>', '<cmd>cprev<CR>')
 
